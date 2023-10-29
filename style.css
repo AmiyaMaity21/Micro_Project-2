@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*-----------------Nav-------------------*/
+.navbar {
+    background-color: #6F6AF7;
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-logo {
+    padding: 16px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 32px;
+}
+.nav-menu ul .img{
+    padding-top: 100%;
+}
+
+ul li {
+    font-family: 'DM Sans';
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.nav-search {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.nav-search input[type="search"] {
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+.nav-toggler {
+    padding: 16px;
+}
+
+/*-----------------section-1-------------------*/
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-01 {
+    margin: 70px 0;
+}
+
+.section-01 .row {
+    display: flex;
+    height: 350px;
+    gap: 40px;
+}
+
+.section-01 .col-1 {
+    width: 30%;
+    padding: 0.8rem;
+}
+
+.section-01 .col-2 {
+    width: 70%;
+    padding: 0.8rem;
+}
+
+.section-01 .img-container img {
+    border-radius: 6px;
+}
+
+.section-01 .text-01 {
+    height: 83%;
+    background-color: #E5D8FF;
+    color: #6F7373;
+    font-family: 'DM Sans';
+    font-size: 29px;
+    line-height: 51px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/*-----------------section-2-------------------*/
+.section-02 {
+    margin: 25px 0px;
+}
+
+.section-02 .row {
+    display: flex;
+    margin: 0px -20px;
+    
+}
+
+.section-02 .col-4 {
+    width: 25%;
+    padding: 20px;
+}
+
+.section-02 .col-4 p {
+    font-size: 29px;
+    margin-bottom: 8px;
+}
+
+.section-02 .col-4 span {
+    font-size: 27px;
+}
+
+.section-02 .column-01 {
+    background-color: #857de4c4;
+    color: #fff;
+    border-radius: 6px;
+    padding: 1rem;
+    font-family: 'DM Sans';
+}
+
+.section-02 .column-02 {
+    background-color: #734CF2;
+    color: #fff;
+    border-radius: 6px;
+    padding: 1rem;
+    font-family: 'DM Sans';
+}
+
+.section-02 .column-03 {
+    background-color: #D288FF;
+    color: #fff;
+    border-radius: 6px;
+    padding: 1rem;
+    font-family: 'DM Sans';
+}
+
+.section-02 .column-04 {
+    background-color: #000000;
+    color: #fff;
+    border-radius: 6px;
+    padding: 1rem;
+    font-family: 'DM Sans';
+}
+
+/*-----------------section-3-------------------*/
+.section-03 {
+    margin: 25px 0;
+}
+
+.section-03 .container {
+    background-color: #483EFF;
+    border-radius: 6px;
+    padding: 0.75rem;
+}
+
+.section-03 .row {
+    display: flex;
+    margin: -0.75rem;
+}
+
+.section-03 .col-1 {
+    width: 25%;
+    padding: 0.75rem;
+}
+
+.section-03 .col-2 {
+    width: 75%;
+    padding: 0.75rem;
+}
+
+.section-03 .tab-list ul {
+    height: 100%;
+    list-style: none;
+    padding: 0 0.75rem;
+}
+
+.section-03 .tab-list ul li {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 35px 0;
+}
+
+.section-03 .tab-list ul li.active {
+    background-color: #BCE0F6;
+    color: #000000;
+}
+
+.section-03 .tab-content {
+    height: 90%;
+    background-color: #FFFFFF;
+    color: #04285A;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.section-03 .tab-content p {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 1rem;
+    font-family: 'Inter';
+}
+
+.section-03 .tab-content table .col-q {
+    padding-left: 2rem;
+    font-size: 18px;
+}
+
+.section-03 .tab-content table td {
+    padding: 0.5rem;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+.section-03 .tab-content .nav-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+
+}
+
+.section-03 .tab-content .nav-btn button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 1rem;
+    font-family: 'Roboto';
+}
+
+.social-icon {
+    position: fixed;
+    top: 30%;
+    right: 0.2%;
+}
